@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1780px;
+  font-family: "Mukta", sans-serif;
+  font-family: "Roboto", sans-serif;
+
+  margin: 0 auto;
+}
+.technology {
+  background: url(img/Rectangle\ 1.jpg);
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+.technology h2 {
+  color: #ffffff;
+  padding-top: 54px;
+  letter-spacing: 5%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.slogan {
+  color: #10baf7;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: Mukta;
+  margin-top: 17px;
+}
+.stay {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-top: 10px;
+}
+
+.calender {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 70px;
+  justify-content: space-around;
+  margin: 0 300px;
+}
+.calender .day p,
+.calender .hour p,
+.calender .min p,
+.calender .second p {
+  color: #10baf7;
+  font-size: 30px;
+}
+.calender .day,
+.calender .hour,
+.calender .min,
+.calender .second {
+  border: 1px solid #10baf7;
+  padding: 0 20px;
+  height: 173px;
+  width: 173px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.calender .day h1,
+.calender .hour h1,
+.calender .min h1,
+.calender .second h1 {
+  color: #fff;
+  font-size: 70px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+}
+
+.subscribe {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.subscribe-box {
+  margin: 30px 0;
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 2px solid #10baf7;
+  outline: none;
+  width: 437.57px;
+  height: 68.81px;
+  background: transparent;
+
+  font-size: 36px;
+}
+
+button {
+  background: #10baf7;
+  border: 2px solid #10baf7;
+  outline: none;
+  width: 296px;
+  height: 69px;
+  width: 296px;
+  font-size: 36px;
+  color: #fff;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-bottom: 50px;
+}
+.social {
+  width: 76px;
+  height: 76px;
+  border: 1px solid #10baf7;
+  text-align: center;
+  margin: 0 10px;
+  line-height: 76px;
+}
+.social a {
+  text-decoration: none;
+  color: #10baf7;
+  font-size: 34px;
+}
+
+/* Technology End */
+
+/* Feature Start */
+.feature {
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+}
+.feature h1 {
+  font-size: 40px;
+}
+
+.main-icon {
+  color: #10baf7;
+  position: relative;
+  font-size: 24px;
+}
+.main-icon::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 43%;
+  width: 80px;
+  height: 2px;
+  background: #10baf7;
+}
+.main-icon::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 43%;
+  width: 80px;
+  height: 2px;
+  background: #10baf7;
+}
+
+.feature-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  margin: 20px 40px;
+}
+
+.item {
+  margin: 20px 20px;
+  text-align: center;
+  flex-shrink: 500px;
+  flex-basis: 20%;
+}
+.icon-item {
+  text-decoration: none;
+
+  text-align: center;
+}
+
+.icon-item a {
+  text-decoration: none;
+  color: #10baf7;
+  font-size: 34px;
+  border: 2px solid #10baf7;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+.feature h3 {
+  font-size: 40px;
+  color: #c4c4c4;
+}
+.feature p {
+  font-size: 25px;
+  color: #c4c4c4;
+}
+
+.title {
+  font-size: 36px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 18px !important;
+  text-align: justify;
+}
+
+/* About Us */
+.about-us {
+  background: #000000;
+  text-align: center;
+  margin: 30px 10px;
+}
+.about-title h1 {
+  padding-top: 40px;
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 5%;
+  margin-bottom: 24px;
+}
+.title-2 h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  color: #c4c4c4;
+}
+.about-des {
+  font-size: 18px;
+  padding: 20px 0;
+  color: #c4c4c4;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 100px;
+}
+.profile-item {
+  flex-basis: 30%;
+  margin: 50px 0;
+  flex-shrink: 400px;
+}
+.profile-item img {
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+}
+.profile-name {
+  font-size: 28px;
+  color: #fff;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5%;
+}
+.designation {
+  color: #10baf7;
+  font-size: 16px;
+  margin: 10px 0;
+}
+/* Contact */
+.contact {
+  
+  text-align: center;
+  margin: 30px 10px;
+}
+.contact-title h1 {
+  padding-top: 40px;
+  font-size: 40px;
+
+  letter-spacing: 5%;
+  margin-bottom: 24px;
+}
+
+
+.title-3 h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  color: #c4c4c4;
+}
+.contact-des {
+  font-size: 20px;
+  color: #c4c4c4;
+  letter-spacing: 5%;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.contact form input[type="text"] {
+  width: 418px;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 6px;
+  border: 1px solid #10baf7;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  margin: 20px 10px;
+  font-size: 20px;
+}
+.contact form input[type="text"]:nth-child(4) {
+  width: 860px;
+  height: 120px;
+  border-radius: 6px;
+  border: 1px solid #10baf7;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  margin: 5px 10px;
+}
+
+.contact form input[type="submit"] {
+  margin: 20px 0;
+  width: 160px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #10baf7;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 5%;
+  cursor: pointer;
+}
