@@ -22,13 +22,13 @@ body {
 
 .setting {
   position: absolute;
-  height: 60px;
-  width: 60px;
+ 
   top: 100px;
   left: 0;
   height: 50px;
   width: 50px;
-  background: #efefef;
+  background: #10baf7;
+  border-radius:50%;
 }
 .setting img {
   height: 50px;
@@ -76,12 +76,13 @@ body {
 .calender .hour,
 .calender .min,
 .calender .second {
-  border: 1px solid #10baf7;
+  border: 2px solid #10baf7;
   padding: 0 20px;
   height: 173px;
   width: 173px;
   margin-bottom: 50px;
   margin-top: 50px;
+  border-radius: 4px;
 }
 .calender .day h1,
 .calender .hour h1,
@@ -109,13 +110,14 @@ input[type="text"] {
   width: 437.57px;
   height: 68.81px;
   background: transparent;
-
+border-radius:4px;
   font-size: 36px;
 }
 
 button {
   background: #10baf7;
   border: 2px solid #10baf7;
+  border-radius:4px;
   outline: none;
   width: 296px;
   height: 69px;
@@ -142,10 +144,13 @@ button:focus {
   width: 76px;
   height: 76px;
   border: 1px solid #10baf7;
+  border-radius: 4px;
   text-align: center;
   margin: 0 10px;
   line-height: 76px;
+  transition: 0.5s;
 }
+.social:hover{transform: translateY(-5px);}
 .social a {
   text-decoration: none;
   color: #10baf7;
@@ -171,7 +176,7 @@ button:focus {
 .main-icon::after {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 18px;
   left: 43%;
   width: 80px;
   height: 2px;
@@ -180,7 +185,7 @@ button:focus {
 .main-icon::before {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 18px;
   right: 43%;
   width: 80px;
   height: 2px;
@@ -213,7 +218,8 @@ button:focus {
   color: #10baf7;
   font-size: 34px;
   border: 2px solid #10baf7;
-  padding: 0 15px;
+  border-radius: 4px;
+  padding: 0 20px;
   margin-bottom: 10px;
 }
 .feature h3 {
